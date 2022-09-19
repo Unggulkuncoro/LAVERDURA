@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(kebon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 125px;
+}
+
+.about {
+    text-align: center;
+    margin: auto auto;
+    width: 1000px;
+}
+h1 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+h2 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+p {
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}

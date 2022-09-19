@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(sayuran.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container2 {
+        background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(sayuran.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menuAtas {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menuAtas ul li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+.menuAtas ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    padding: 5px 5px;
+}
+
+.menuAtas ul li a:hover {
+    background-color: blanchedalmond;
+    color: grey;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.utama {
+    text-align: center;
+    margin: 120px auto;
+}
+.utama h2 {
+    font-size: 150px;
+    color:blanchedalmond;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.utama p {
+    font-size: 20px;
+    font-style: italic;
+    color: blanchedalmond;
+    font-size: 25px;
+    margin: 0 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.utama ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.utama ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    display: inline-block;
+    border: 1px solid blanchedalmond;
+    padding: 7px 10px;
+    width: 120px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.utama ul li a:hover {
+    background-color: blanchedalmond;
+    color: grey;
+    transition: 0.5s;
+}
